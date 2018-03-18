@@ -2,27 +2,34 @@
 <html dir="ltr" lang="en-US">
 {{>head}}
 
-<body class="container">
+<body class="container-fluid">
 	<!-- Header -->
-	<header>
+	<header class="row">
 		<h1>Animal Sitting</h1>
 		<p>Web App to connect animal owners with animal sitters.</p>
 	</header>
 
 	<!-- Call To Action -->
-	<section>
-		<div class="">
+	<section class="call-to-action" class="row">
+		<div class="col-lg-6">
 			<h2>People are busy with life. Animal Sitting can help you find a sitter to watch your 4 legged best friend.</h2>
 			<p>Animal Sitting uses registered and verified sitters so you can have piece of mind.</p>
 		</div>
-		<div class="">
+		<div class="col-lg-6">
 			<h1>Sign Up Today!</h1>
 			<button type="button" name="button">Sign Up</button>
 		</div>
 	</section>
 
-	<section>
-
+	<!-- Sign Up Form -->
+	<section id="sign-up" class="row">
+		<div class="col-lg-6">
+			<form>
+				<input type="text" name="name" placeholder="Name">
+				<input type="email" name="email" placeholder="Email">
+				<input type="password" name="password" placeholder="Password">
+			</form>
+		</div>
 	</section>
 
 
